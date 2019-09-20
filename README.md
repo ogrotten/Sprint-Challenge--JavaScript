@@ -1,4 +1,36 @@
-# Sprint Challenge: JavaScript Fundamentals
+# Self-Study Questions
+
+Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
+
+1. Describe the biggest difference between `.forEach` & `.map`.
+.map 2 main differences is that 1) it creates a new array 2) leaves the original intact.
+
+2. What is the difference between a function and a method?
+A method is a function that exists inside the context of some object.
+
+3. What is closure?
+A closure is where you have access to the scope of some higher or outer context object. 
+
+4. Describe the four rules of the 'this' keyword.
+    1. Global - without context, `this` is in the context of either the Global or Window object
+    2. Implicit - when using an object method, `this` context is implied to be the object left of the dot
+    3. New - when using a constructor, `this` context is of the object built by the constructor
+    4. Explicit - when using bind/apply/call, `this` context explicitly defined.
+
+
+5. Why do we need super() in an extended class?
+In an extended class, `super` pulls in the properties the parent class being extended.
+
+
+
+-----
+-----
+-----
+
+
+## Sprint Challenge: JavaScript Fundamentals
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a survey of problems. This Sprint explored JavaScript Fundamentals. During this Sprint, you studied variables, functions, object literals, arrays, this keyword, prototypes, and class syntax. In your challenge this week, you will demonstrate proficiency by completing a survey of JavaScript problems.
 
@@ -21,22 +53,6 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 You will notice there are several JavaScript files being brought into the index.html file.  Each of those files contain JavaScript problems you need to solve.  If you get stuck on something, skip over it and come back to it later.
 
 In meeting the minimum viable product (MVP) specifications listed below, you should have a console full of correct responses to the problems given.
-
-## Self-Study Questions
-
-Demonstrate your understanding of this week's concepts by answering the following free-form questions.
-
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
-
-1. Describe the biggest difference between `.forEach` & `.map`.
-
-2. What is the difference between a function and a method?
-
-3. What is closure?
-
-4. Describe the four rules of the 'this' keyword.
-
-5. Why do we need super() in an extended class?
 
 ## Project Set up
 
